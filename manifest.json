@@ -15,6 +15,12 @@
             "48": "/images/emoji1.svg.png",
             "128": "/images/emoji1.svg.png"
         }
-    }
+    },
+    "content_scripts": [{
+        "matches": [
+            "https://www.google.com/*"
+        ],
+        "css" : ["main.css"]
+    }]
 
 }
